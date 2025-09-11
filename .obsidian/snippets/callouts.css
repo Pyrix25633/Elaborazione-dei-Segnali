@@ -27,3 +27,13 @@
     --callout-color: 255, 167, 0;
     --callout-icon: lucide-book-plus;
 }
+
+.callout[data-callout="osservazione"] {
+    --callout-color: 255, 167, 0;
+    --callout-icon: lucide-search;
+}
+
+.callout[data-callout="proprietà"] {
+    --callout-color: 158, 33, 255;
+    --callout-icon: lucide-book-up;
+}
