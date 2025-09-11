@@ -29,6 +29,7 @@
 > 0,&t<t_{0}
 > \end{cases} &&\end{flalign}$$
 > In $t_{0}$ si verifica un evento, causa del segnale, che non può esistere prima di tale istante
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## Funzioni notevoli
 > [!definizione] Gradino unitario
@@ -38,6 +39,7 @@
 > 1, &t\geq 0 \\
 > 0, &t<0
 > \end{cases}&&\end{flalign}$$
+> <img src="img/gradino.png" width="200px">
 
 > [!definizione] Rettangolo simmetrico unitario
 > Pari
@@ -45,6 +47,7 @@
 > 1, &|t|\leq \frac{T}{2} \\
 > 0, &|t|> \frac{T}{2}
 > \end{cases} &&\end{flalign}$$
+> <img src="img/rettangolo.png" width="200px">
 
 > [!definizione] Segno
 > Dispari
@@ -52,9 +55,11 @@
 > +1, &t\geq 0 \\
 > -1, &t<0
 > \end{cases} &&\end{flalign}$$
+> <img src="img/segno.png" width="200px">
 
 > [!approfondimento] Relazione
 > $$\begin{flalign}u(t)=\frac{1}{2}(s(t)+1) &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 > [!definizione] Triangolo simmetrico unitario
 > Pari
@@ -62,14 +67,17 @@
 > \frac{T/2-|t|}{T/2}, &|t|\leq \frac{T}{2} \\
 > 0, &|t|> \frac{T}{2}
 > \end{cases} &&\end{flalign}$$
+> <img src="img/triangolo.png" width="200px">
 
 > [!definizione] Sinc
 > Pari
 > $$\begin{flalign}\mathrm{sinc}(t)=\frac{\sin(\pi t)}{\pi t} &&\end{flalign}$$
 > $\mathrm{sinc}(0)=1,\;\mathrm{sinc}(k\in \mathbb{\mathbb{Z}})=0$
+> <img src="img/sinc.png" width="400px">
+<div class="page-break" style="page-break-before: always;"></div>
 
 > [!definizione] Impulso unitario
-> Delta di Dirac, distribuzione
+> Delta di Dirac, distribuzione, utilizzata per campionare il segnale
 > $f$ funzione test, continua e integrabile, allora
 > $$\begin{flalign}\delta(t):\forall f(t)\;\int_{-\infty}^{+\infty}f(t)\cdot\delta(t)\,dt=f(0) &&\end{flalign}$$
 > $$\begin{flalign}\delta(t)=\lim_{ T \to 0 } \frac{1}{T}\Pi_{T}(t)=\begin{cases}
@@ -78,6 +86,7 @@
 > \end{cases} &&\end{flalign}$$
 > Ha area $1$:
 > $$\begin{flalign}\int_{-\infty}^{+\infty}\delta(t)\,dt=1 &&\end{flalign}$$
+> <img src="img/impulso.png" width="150px">
 
 > [!osservazione]
 > Per ottenere ampiezze diverse da quella unitaria si moltiplica la funzione per il coefficiente desiderato
